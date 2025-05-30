@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import NavItem from "@/components/NavItem";
 
 const Navbar = () => {
     return (
@@ -10,9 +11,7 @@ const Navbar = () => {
                 </div>
             </Link>
             <div className="flex items-center gap-8">
-                <p>Home</p>
-                <p>Companions</p>
-                <p>My Journey</p>
+                <NavItem/>
                 <p>Sign in</p>
             </div>
         </nav>
