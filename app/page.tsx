@@ -3,6 +3,7 @@ import {Button} from "@/components/ui/button";
 import CompanionCard from "@/components/CompanionCard";
 import CompanionsList from "@/components/CompanionsList";
 import CTA from "@/components/CTA";
+import {recentSessions} from "@/constants";
 
 const Page = () => {
     return (
@@ -10,7 +11,7 @@ const Page = () => {
             <h1>Popular Companions</h1>
             <section className="home-section">
                 <CompanionCard
-                    id="123"
+                    id="3"
                     name="Neura the Brainy Explorer"
                     topic="Neural Network of the Brain"
                     subject="English Lecture"
@@ -18,7 +19,7 @@ const Page = () => {
                     color="#ffda6e"
                 />
                 <CompanionCard
-                    id="456"
+                    id="2"
                     name="Countsy the Number Wizard"
                     topic="Derivatives & Integrals"
                     subject="Maths"
@@ -26,7 +27,7 @@ const Page = () => {
                     color="#e5d0ff"
                 />
                 <CompanionCard
-                    id="789"
+                    id="1"
                     name="Verba the Vocabulary Builder"
                     topic="language"
                     subject="Science"
@@ -35,7 +36,11 @@ const Page = () => {
                 />
             </section>
             <section className="home-section">
-                <CompanionsList/>
+                <CompanionsList
+                    title="Recently completed sessions"
+                    companions={recentSessions}
+                    classNames="w-2/3 max-lg:w-full"
+                />
                 <CTA/>
             </section>
         </main>
