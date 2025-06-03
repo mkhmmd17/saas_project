@@ -11,7 +11,7 @@ const Page = () => {
             <h1>Popular Companions</h1>
             <section className="home-section">
                 <CompanionCard
-                    id="3"
+                    id="123"
                     name="Neura the Brainy Explorer"
                     topic="Neural Network of the Brain"
                     subject="English Lecture"
@@ -19,7 +19,7 @@ const Page = () => {
                     color="#ffda6e"
                 />
                 <CompanionCard
-                    id="2"
+                    id="456"
                     name="Countsy the Number Wizard"
                     topic="Derivatives & Integrals"
                     subject="Maths"
@@ -27,7 +27,7 @@ const Page = () => {
                     color="#e5d0ff"
                 />
                 <CompanionCard
-                    id="1"
+                    id="789"
                     name="Verba the Vocabulary Builder"
                     topic="language"
                     subject="Science"

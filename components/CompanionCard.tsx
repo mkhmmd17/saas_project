@@ -27,7 +27,7 @@ const CompanionCard = ({id, name, topic, subject, duration, color}: CompanionCar
                 <Image src="/icons/clock.svg" alt="clock" width={13.5} height={13.5}/>
                 <p className="text-sm">{duration} minutes</p>
             </div>
-            <Link href={`/companion/${id}`} className="w-full">
+            <Link href={`/companions/${id}`} className="w-full">
 
                 <button className="btn-primary w-full justify-center">
                     Launch Lesson
