@@ -14,11 +14,11 @@ const NavItem = () => {
 
     return (
         <nav className="flex items-center gap-4">
-            {navItems.map(({label, href}) => ( //??????????
+            {navItems.map(({label, href}) => ( //?
                 <Link
                     href={href}
                     key={label}
-                    className={cn(pathName === href && 'text-primary font-semibold')} //?????????
+                    className={cn(pathName === href && 'text-primary font-semibold')} //?
                 >
                     {label}
                 </Link>

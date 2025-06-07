@@ -19,7 +19,7 @@ interface CompanionsListProps {
 
 const CompanionsList = ({title, companions, classNames}: CompanionsListProps) => {
     return (
-        // what is cn ????
+        //? what is cn ????
         <article className={cn('companion-list', classNames)}>
             <h2 className="font-bold text-3xl">Recent Session</h2>
             <Table>
