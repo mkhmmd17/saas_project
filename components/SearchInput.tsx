@@ -26,7 +26,6 @@ const SearchInput = () => {
                     value: searchQuery,
                 });
 
-                //? we can configure ui such as scroll and the pushed screen?
                 router.push(newUrl, {scroll: false})
             } else {
                 if (pathname === '/companions') {
